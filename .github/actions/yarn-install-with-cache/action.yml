@@ -15,6 +15,6 @@ runs:
         then
           echo "Cache hit"
         else
-          yarn install --frozen-lockfile
+          yarn install
         fi
       shell: bash
